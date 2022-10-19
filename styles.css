@@ -1,30 +1,42 @@
+#sec-pokemon .wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#sec-pokemon .engloba-titulo{
+    
+}
+#sec-pokemon .engloba-titulo .titulo{
+    font-size: 19px;
+}
 .conteudo-pokemon{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px 20px;
+    margin: 0 auto;
 }
-.conteudo-pokemon .card-pokemon{
-    width: 33%;
-    max-width: 250px;
+.conteudo-pokemon .card-anime{
+    width: 39.3%;
+    max-width: 285px;
 }
-.conteudo-pokemon .card-pokemon .image{
+.conteudo-pokemon .card-anime .image{
     width: 100%;
-    height: 293px;
+    height: 368px;
 }
-.conteudo-pokemon .card-pokemon .image img{
+.conteudo-pokemon .card-anime .image img{
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
-.conteudo-pokemon .card-pokemon .descricao {
-    background: #ccc;
+.conteudo-pokemon .card-anime .descricao {
+    background: #000;
     min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.conteudo-pokemon .card-pokemon .descricao .titulo{
+.conteudo-pokemon .card-anime .descricao .titulo{
     color: #000;
     font-size: 19px;
 }
