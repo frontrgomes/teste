@@ -1,0 +1,30 @@
+.conteudo-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+}
+.conteudo-pokemon .card-pokemon{
+    width: 33%;
+    max-width: 250px;
+}
+.conteudo-pokemon .card-pokemon .image{
+    width: 100%;
+    height: 293px;
+}
+.conteudo-pokemon .card-pokemon .image img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.conteudo-pokemon .card-pokemon .descricao {
+    background: #ccc;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-pokemon .card-pokemon .descricao .titulo{
+    color: #000;
+    font-size: 19px;
+}
